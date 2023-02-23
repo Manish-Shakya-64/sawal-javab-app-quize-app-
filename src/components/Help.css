@@ -1,0 +1,37 @@
+.helpBox{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.helpBox > h1{
+    border-bottom: 1px solid #000;
+    width: 10vmax;
+    text-align: center;
+    padding: 1vmax;
+}
+
+.helpBox >p {
+    font-size: 1.3vmax;
+    text-align: center;
+    margin: 2vmax;
+}
+
+@media screen and (max-width: 600px) {
+    .helpBox {
+        height: 100%;
+    }
+
+    .helpBox > h1{
+        width: 20vmax;
+        font-size: 5vmax;
+    }
+
+    .helpBox > p{
+        font-size: 2.3vmax;
+    }
+}
+    
